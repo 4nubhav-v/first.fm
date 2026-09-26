@@ -17,7 +17,7 @@ async function fetchData(urlTopic, errorMessage) {
   } catch (error) {
     return {
       status: "404",
-      error: `${error}`,
+   //   error: `${error}`,
       message: `${errorMessage}`,
     };
   }
